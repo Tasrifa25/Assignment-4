@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding-right: 0;
+}
+
+.main-box{
+	width: 100%;
+	min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(img/ff9a9c.png);
+    background-position: cover;
+}
+
+.container{
+	width: 1140px;
+	margin: auto;
+    max-width: 850px;
+	margin: auto;
+	background: #fff;
+	display: flex;
+}
+
+.formbox{
+	display: flex;
+}
+
+.left-side{
+	flex-basis: 50%;
+}
+
+.
+.left-side img{
+	width: 100%;
+}
+
+.right-side{
+	flex-basis: 50%;
+	padding: 77px 0px 55px 16px;
+}
+
+.h3{
+ font-family: 'Lobster Two', cursive;
+ font-size: 40px;
+ text-align: left;
+ margin-bottom: 33px;
+ color: #ff9a9c;
+ margin-left: 100px;
+}
+
+.form-c{
+	width: 100%;
+	margin-bottom: 25px;
+	color: #808080;
+	border: none;
+	background: #f7f7f7;
+	padding: 15px 16px;
+	border-radius: 23.5px;
+	font-family: poppins;
+	font-size: 14px;
+}
+.checkbox label{
+	font-family: poppins;
+	font-size: 12px;
+	cursor: pointer;
+	color: #808080;
+}
+
+.checkbox input:checked{
+    background-color: transparent; 
+    color: #ff9a9c;
+}
+
+.checkbox label a{
+	text-decoration: none;
+	color: #ff9a9c;
+	margin-left: 5px;
+}
+
+.login{
+	display: flex;
+}
+
+.login button{
+	font-family: poppins;
+	font-size: 15px;
+	font-weight: 500;
+	background-color: #ff9a9c;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 23.5px;
+	letter-spacing: 2px;
+	color: #fff;
+	margin: 25px 0 25px 20px;
+}
+
+.login button:hover{
+	cursor: pointer;
+	transition: 0.5s;
+	transform: scale(1.2);
+}
+
+.login p{
+	font-family: poppins;
+	font-size: 12px;
+	color: #808080;
+	margin: 35px 0 25px 25px;
+}
+
+.login p a{
+	text-decoration:none;
+	color: #ff9a9c;
+}
